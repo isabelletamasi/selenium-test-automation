@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 public class DemoTest {
     BrowserManager manager = new BrowserManager();
-
     @Test
     public void browserTest() {
         manager.openBrowser();
